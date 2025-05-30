@@ -1497,11 +1497,368 @@ p {
 }
 
 /*===========================
-     10.DOWNLOAD css 
+     12.PRODUCT2 css 
 ===========================*/
-.download-area .download-image {
+
+
+.product2-area .product2-image {
   padding-top: 65px;
   padding-left: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+@media (max-width: 767px) {
+  .product2-area .product2-image {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.product2-area .product2-image .image {
+  -webkit-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
+  -moz-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
+  box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
+  border-radius: 50px;
+  max-width: 295px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .product2-area .product2-image .image {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .product2-area .product2-image .image {
+    max-width: 295px;
+  }
+}
+.product2-area .product2-image .product2-shape-1 {
+  width: 185px;
+  height: 185px;
+  background-color: #E3401F;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.product2-area .product2-image .product2-shape-2 {
+  position: absolute;
+  bottom: -50px;
+  right: 40px;
+  z-index: -1;
+}
+
+.product2-content .product2-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+@media (max-width: 767px) {
+  .product2-content .product2-title {
+    font-size: 22px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .product2-content .product2-title {
+    font-size: 28px;
+  }
+}
+
+.product2-content .text {
+  margin-top: 35px;
+}
+
+.product2-content ul {
+  padding-top: 35px;
+}
+.product2-content ul li {
+  display: inline-block;
+  margin-top: 15px;
+}
+.product2-content ul li a {
+  width: 210px;
+  height: 65px;
+  border-radius: 5px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -moz-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+.product2-content ul li a.app-store {
+  background-color: #2f5ba1;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
+  box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
+  margin-right: 28px;
+}
+.product2-content ul li a.app-store:hover {
+  -webkit-box-shadow: 0px 4px 25px 0px rgba(8, 152, 231, 0.4);
+  -moz-box-shadow: 0px 4px 25px 0px rgba(8, 152, 231, 0.4);
+  box-shadow: 0px 4px 25px 0px rgba(8, 152, 231, 0.4);
+}
+.product2-content ul li a.play-store {
+  background-color: #525a63;
+  -webkit-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
+  -moz-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
+  box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
+}
+.product2-content ul li a.play-store:hover {
+  -webkit-box-shadow: 0px 4px 25px 0px rgba(82, 90, 99, 0.4);
+  -moz-box-shadow: 0px 4px 25px 0px rgba(82, 90, 99, 0.4);
+  box-shadow: 0px 4px 25px 0px rgba(82, 90, 99, 0.4);
+}
+
+}
+
+/*===========================
+       14.PRODUCT css 
+===========================*/
+/* .product3-area {
+  background-color: #f3fdff;
+} */
+
+
+.product3-image {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+@media (max-width: 767px) {
+  .product3-image {
+    margin-left: 0;
+    padding-top: 65px;
+    padding-bottom: 45px;
+  }
+}
+.product3-image .product3-shape {
+  background: -webkit-linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  background: -o-linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  background: linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: relative;
+  top: -90px;
+  right: 220px;
+}
+@media (max-width: 767px) {
+  .product3-image .product3-shape {
+    width: 294px;
+    height: 294px;
+  }
+}
+.product3-image .product3-shape::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  -webkit-transform: scale(1.1) rotate(25deg);
+  -moz-transform: scale(1.1) rotate(25deg);
+  -ms-transform: scale(1.1) rotate(25deg);
+  -o-transform: scale(1.1) rotate(25deg);
+  transform: scale(1.1) rotate(-125deg);
+  border-radius: 50%;
+  border: 2px solid #2f5ba1;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.product3-image .app {
+  position: relative;
+
+  max-width: 820px;
+  position: absolute;
+  top: -180px;
+  left: 10px;
+}
+@media (max-width: 767px) {
+  .product3-image .app {
+    max-width: 190px;
+    border-radius: 25px;
+    top: 60px;
+  }
+}
+
+.product3-content .main-btn {
+  margin-top: 40px;
+}
+.product3-content .secon-btn {
+  margin-top: 40px;
+}
+
+
+/*===========================
+       15.PRODUCT css 
+===========================*/
+/* .product4-area {
+  background-color: #f3fdff;
+} */
+
+
+.product4-image {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+  padding-top: 100px;
+  padding-bottom: 190px;
+}
+@media (max-width: 767px) {
+  .product4-image {
+    margin-left: 0;
+    padding-top: 65px;
+    padding-bottom: 45px;
+  }
+}
+.product4-image .product4-shape {
+  background: -webkit-linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  background: -o-linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  background: linear-gradient(#e3401f 0%, #2f5ba1 100%);
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  position: relative;
+  top: -90px;
+  right: 220px;
+}
+@media (max-width: 767px) {
+  .product4-image .product4-shape {
+    width: 294px;
+    height: 294px;
+  }
+}
+.product4-image .product4-shape::before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  -webkit-transform: scale(1.1) rotate(25deg);
+  -moz-transform: scale(1.1) rotate(25deg);
+  -ms-transform: scale(1.1) rotate(25deg);
+  -o-transform: scale(1.1) rotate(25deg);
+  transform: scale(1.1) rotate(-125deg);
+  border-radius: 50%;
+  border: 2px solid #2f5ba1;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.product4-image .app {
+  position: relative;
+
+  max-width: 820px;
+  position: absolute;
+  top: -180px;
+  left: -40px;
+}
+@media (max-width: 767px) {
+  .product4-image .app {
+    max-width: 190px;
+    border-radius: 25px;
+    top: 60px;
+  }
+}
+
+.product4-content .main-btn {
+  margin-top: 40px;
+}
+.product4-content .secon-btn {
+  margin-top: 40px;
+}
+
+
+/* FAQ Accordion Custom Styles */
+#faq .accordion .card {
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  box-shadow: 0 2px 16px rgba(44, 62, 80, 0.07);
+  background: #fff;
+  transition: box-shadow 0.2s;
+}
+
+#faq .accordion .card-header {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+#faq .accordion .btn-link {
+  color: #38424d;
+  background: none;
+  box-shadow: none;
+  text-decoration: none;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 22px 28px;
+  border-radius: 8px;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#faq .accordion .btn-link:hover,
+#faq .accordion .btn-link:focus {
+  background: #f7f7fa;
+  color: #2F5BA1;
+  text-decoration: none;
+}
+
+#faq .accordion .icon {
+  margin-left: 12px;
+  font-size: 1.2em;
+  color: #2F5BA1;
+  transition: transform 0.3s;
+}
+
+#faq .accordion .btn[aria-expanded="true"] .icon {
+  transform: rotate(45deg);
+}
+
+#faq .accordion .card-body {
+  padding: 18px 28px 22px 28px;
+  background: #f7f7fa;
+  border-radius: 0 0 8px 8px;
+  color: #444;
+  font-size: 1rem;
+}
+
+#faq .display-3 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #38424d;
+}
+
+#faq .lead {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+
+/*===========================
+     10.DOWNLOAD css 
+===========================*/
+
+
+.download-area .download-image {
+  padding-top: 65px;
+  padding-left: -60px;
   padding-bottom: 60px;
   position: relative;
 }
@@ -1516,7 +1873,7 @@ p {
   -moz-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
   box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
   border-radius: 50px;
-  max-width: 295px;
+  max-width: 520px;
   margin: 0 auto;
 }
 @media (max-width: 767px) {
@@ -1532,7 +1889,7 @@ p {
 .download-area .download-image .download-shape-1 {
   width: 185px;
   height: 185px;
-  background-color: #feb21c;
+  background-color: #E3401F;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1571,6 +1928,7 @@ p {
 .download-content ul li {
   display: inline-block;
   margin-top: 15px;
+  margin-right: 16px;
 }
 .download-content ul li a {
   width: 210px;
@@ -1592,7 +1950,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .download-content ul li a.app-store {
-  background-color: #2f5ba1;
+  background-color: #1b1b1b;
   -webkit-box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
   -moz-box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
   box-shadow: 0px 4px 10px 0px rgba(8, 152, 231, 0.4);
@@ -1604,7 +1962,7 @@ p {
   box-shadow: 0px 4px 25px 0px rgba(8, 152, 231, 0.4);
 }
 .download-content ul li a.play-store {
-  background-color: #525a63;
+  background-color: #2F5BA1;
   -webkit-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
   -moz-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
   box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
