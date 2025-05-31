@@ -1277,6 +1277,7 @@ p {
 .single-services .services-content .services-title a {
   font-size: 25px;
   font-weight: 500;
+  width: 132px;
   color: #222;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -1402,13 +1403,6 @@ p {
   box-shadow: -15px 10px 30px 0px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
-@media (max-width: 767px) {
-  .about-image .app {
-    max-width: 190px;
-    border-radius: 25px;
-    top: 60px;
-  }
-}
 
 .about-content .main-btn {
   margin-top: 40px;
@@ -1429,7 +1423,7 @@ p {
   display: inline-block;
   text-align: center;
   margin-left: 40px;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 190px;
 }
 @media (max-width: 767px) {
@@ -1481,13 +1475,13 @@ p {
   top: -180px;
   left: -10px;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .product-image-1 .app {
     max-width: 190px;
     border-radius: 25px;
     top: 60px;
   }
-}
+} */
 
 .product-content .main-btn {
   margin-top: 40px;
@@ -1499,7 +1493,6 @@ p {
 /*===========================
      12.PRODUCT2 css 
 ===========================*/
-
 
 .product2-area .product2-image {
   padding-top: 65px;
@@ -1521,11 +1514,11 @@ p {
   max-width: 295px;
   margin: 0 auto;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .product2-area .product2-image .image {
     max-width: 100%;
   }
-}
+} */
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .product2-area .product2-image .image {
     max-width: 295px;
@@ -1534,7 +1527,7 @@ p {
 .product2-area .product2-image .product2-shape-1 {
   width: 185px;
   height: 185px;
-  background-color: #E3401F;
+  background-color: #e3401f;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1617,8 +1610,6 @@ p {
   box-shadow: 0px 4px 25px 0px rgba(82, 90, 99, 0.4);
 }
 
-}
-
 /*===========================
        14.PRODUCT css 
 ===========================*/
@@ -1626,13 +1617,12 @@ p {
   background-color: #f3fdff;
 } */
 
-
 .product3-image {
   position: relative;
   display: inline-block;
   text-align: center;
   margin-left: 40px;
-  padding-top: 100px;
+  padding-top: 20px;
   padding-bottom: 190px;
 }
 @media (max-width: 767px) {
@@ -1699,14 +1689,12 @@ p {
   margin-top: 40px;
 }
 
-
 /*===========================
        15.PRODUCT css 
 ===========================*/
 /* .product4-area {
   background-color: #f3fdff;
 } */
-
 
 .product4-image {
   position: relative;
@@ -1780,7 +1768,6 @@ p {
   margin-top: 40px;
 }
 
-
 /* FAQ Accordion Custom Styles */
 #faq .accordion .card {
   border: none;
@@ -1815,14 +1802,14 @@ p {
 #faq .accordion .btn-link:hover,
 #faq .accordion .btn-link:focus {
   background: #f7f7fa;
-  color: #2F5BA1;
+  color: #2f5ba1;
   text-decoration: none;
 }
 
 #faq .accordion .icon {
   margin-left: 12px;
   font-size: 1.2em;
-  color: #2F5BA1;
+  color: #2f5ba1;
   transition: transform 0.3s;
 }
 
@@ -1850,11 +1837,9 @@ p {
   margin-bottom: 0;
 }
 
-
 /*===========================
      10.DOWNLOAD css 
 ===========================*/
-
 
 .download-area .download-image {
   padding-top: 65px;
@@ -1869,9 +1854,7 @@ p {
   }
 }
 .download-area .download-image .image {
-  -webkit-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
-  -moz-box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
-  box-shadow: 0px 3px 25px 0px rgba(8, 153, 231, 0.2);
+  box-shadow: "none";
   border-radius: 50px;
   max-width: 520px;
   margin: 0 auto;
@@ -1889,7 +1872,7 @@ p {
 .download-area .download-image .download-shape-1 {
   width: 185px;
   height: 185px;
-  background-color: #E3401F;
+  background-color: #e3401f;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -1962,7 +1945,7 @@ p {
   box-shadow: 0px 4px 25px 0px rgba(8, 152, 231, 0.4);
 }
 .download-content ul li a.play-store {
-  background-color: #2F5BA1;
+  background-color: #2f5ba1;
   -webkit-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
   -moz-box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
   box-shadow: 0px 4px 10px 0px rgba(82, 90, 99, 0.4);
@@ -2252,4 +2235,168 @@ p {
 .back-to-top:hover {
   background-color: rgba(8, 152, 231, 0.5);
   color: #fff;
+}
+.desktop-img {
+  display: block;
+}
+.mobile-img {
+  display: none;
+}
+@media (max-width: 980px) {
+}
+
+/*===== MEDIA 480PX =====*/
+@media (max-width: 480px) {
+  .header-hero-content {
+    width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header-hero-content .header-title {
+    font-size: 26px;
+    color: #38424d;
+    width: 100vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 40px;
+  }
+  .header-hero-content .text {
+    align-items: center;
+    width: 100vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 12px;
+    text-align: justify;
+  }
+  .header-image .image {
+    width: 450px;
+    margin-right: 0;
+    margin-left: -40px;
+  }
+
+  /* SERVICES */
+  .single-services .services-content {
+    margin-top: 35px;
+  }
+  .single-services .services-content .services-title a {
+    font-size: 25px;
+    font-weight: 500;
+    width: 260px;
+    color: #222;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+
+  /* ABOUT */
+  .about-area .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-image {
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 65px;
+    margin-left: 210px;
+  }
+  .about-image .about-shape {
+    width: 170px;
+    height: 170px;
+  }
+  .about-image .app {
+    max-width: 420px;
+    border-radius: 25px;
+    top: 10px;
+    left: -180px;
+  }
+  .pb-120 {
+    padding-bottom: 60px;
+  }
+
+  /* PRODUCT */
+
+  .product-image-1 .app {
+    width: 460px;
+    border-radius: 25px;
+    /* margin-left: 70px; */
+    top: -30px;
+    left: -4px;
+  }
+  .product2-area .product2-image .image {
+    margin-top: 220px;
+    margin-left: 80px;
+    width: 60%;
+
+    border-radius: 10%;
+    left: 120px;
+  }
+  .product2-area .product2-image .product2-shape-1 {
+    width: 135px;
+    height: 135px;
+    background-color: #e3401f;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    left: 75px;
+    z-index: -1;
+  }
+  .product2-area .product2-image .product2-shape-2 {
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    top: 570px;
+    left: 140px;
+    z-index: -1;
+  }
+  .product3-content {
+    margin-top: -120px;
+  }
+
+  .product3-image .app {
+    max-width: 450px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+
+    /* margin-left: 70px; */
+    top: -80px;
+    left: -8px;
+  }
+
+  .product4-content {
+    margin-top: -460px;
+  }
+
+  .product4-image .app {
+    max-width: 450px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+
+    /* margin-left: 70px; */
+    top: -280px;
+    left: -8px;
+  }
+  .download-content ul {
+    display: flex;
+    gap: 16px;
+    padding-left: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .download-content ul li {
+    margin: 0;
+  }
+}
+@media (max-width: 380px) {
 }
