@@ -1771,11 +1771,13 @@ p {
 /* FAQ Accordion Custom Styles */
 #faq .accordion .card {
   border: none;
+
   border-radius: 8px;
   margin-bottom: 18px;
   box-shadow: 0 2px 16px rgba(44, 62, 80, 0.07);
   background: #fff;
   transition: box-shadow 0.2s;
+  margin-top: 12px;
 }
 
 #faq .accordion .card-header {
@@ -2385,6 +2387,77 @@ p {
     top: -280px;
     left: -8px;
   }
+
+  /* FAQ */
+  #faq .display-3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #38424d;
+    margin-top: -460px;
+  }
+
+  #faq .accordion {
+    margin-top: -280px;
+  }
+
+  #faq .accordion .card {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 16px rgba(44, 62, 80, 0.07);
+    background: #fff;
+    transition: box-shadow 0.2s;
+    margin-top: 10px;
+  }
+
+  #faq .accordion .card-header {
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  /* DOWNLOAD */
+  .download-area .download-image {
+    padding-top: 65px;
+    padding-left: -60px;
+    padding-bottom: 60px;
+    margin-top: -80px;
+    position: relative;
+  }
+  .download-area .download-image .image {
+    box-shadow: "none";
+    border-radius: 50px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .download-area .download-image .download-shape-1 {
+    width: 165px;
+    height: 165px;
+    background-color: #e3401f;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .download-area .download-image .download-shape-2 {
+    position: absolute;
+    bottom: -80px;
+    right: -40px;
+    z-index: -1;
+  }
+
+  .download-content .download-title {
+    font-size: 28px;
+    margin-top: 80px;
+    font-weight: 600;
+  }
+
+  .download-content .text {
+    margin-top: 15px;
+  }
+
   .download-content ul {
     display: flex;
     gap: 16px;
@@ -2396,6 +2469,116 @@ p {
 
   .download-content ul li {
     margin: 0;
+  }
+
+  /* FOOTER */
+
+  .footer-area .logo {
+    max-width: 220px;
+  }
+
+  .footer-about {
+    max-width: 420px;
+  }
+  .footer-about .text {
+    margin-top: 30px;
+  }
+  .footer-about .social {
+    margin-top: 30px;
+  }
+  .footer-about .social li {
+    display: inline-block;
+    margin-right: 25px;
+  }
+  .footer-about .social li a {
+    font-size: 24px;
+    color: #747e88;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .footer-about .social li a:hover {
+    color: #2f5ba1;
+  }
+
+  .footer-title .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .footer-link .link {
+    padding-top: 10px;
+  }
+  .footer-link .link li {
+    margin-top: 10px;
+  }
+  .footer-link .link li a {
+    color: #747e88;
+    font-size: 18px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .footer-link .link li a:hover {
+    color: #2f5ba1;
+  }
+
+  .footer-link-wrapper {
+    width: 50%;
+  }
+
+  .footer-contact .contact-list li {
+    margin-top: 20px;
+  }
+  .footer-contact .contact-list li .contact-info .info-info {
+    width: 30px;
+  }
+  .footer-contact .contact-list li .contact-info .info-content .text {
+    color: #747e88;
+    font-size: 16px;
+  }
+  .footer-contact .contact-list li .contact-info .info-content .text a {
+    color: #747e88;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .footer-contact .contact-list li .contact-info .info-content .text a:hover {
+    color: #2f5ba1;
+  }
+
+  .footer-copyright .copyright {
+    border-top: 2px solid #747e88;
+    padding-top: 10px;
+    margin-top: -40px;
+    padding-bottom: 25px;
+  }
+  .footer-copyright .copyright .copyright-text {
+    padding-top: 15px;
+  }
+  .footer-copyright .copyright .copyright-text .text {
+    color: #747e88;
+  }
+  .footer-copyright .copyright .copyright-privacy {
+    padding-top: 15px;
+  }
+  .footer-copyright .copyright .copyright-privacy a {
+    font-size: 16px;
+    color: #747e88;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+  }
+  .copyright-privacy .copyright .copyright-privacy a:hover {
+    color: #2f5ba1;
   }
 }
 @media (max-width: 380px) {
