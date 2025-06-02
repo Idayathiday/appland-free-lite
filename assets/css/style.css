@@ -1087,7 +1087,7 @@ p {
 .header-hero-content .header-title {
   font-size: 42px;
   color: #38424d;
-  width: 45vw;
+  width: 44vw;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header-hero-content .header-title {
