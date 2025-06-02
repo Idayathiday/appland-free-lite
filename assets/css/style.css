@@ -1071,6 +1071,7 @@ p {
 
 .header-hero-content {
   position: relative;
+
   z-index: 9;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -1202,7 +1203,7 @@ p {
 }
 .header-image .image {
   width: 900px;
-  margin-left: -80px;
+  margin-left: -70px;
 }
 .header-image .image-shape {
   position: absolute;
